@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.leaf.hiddenleadapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hiddenleaf"
+        android:label="@string/app_name"
+        android:resizeableActivity="false"
+        android:roundIcon="@drawable/hiddenleaf"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HiddenLeadApp">
+        <activity android:name=".Activites.PrivacyPolicyActivity"></activity>
+        <activity android:name=".Activites.ContactClubActivity" />
+        <activity android:name=".Activites.ContactDesignerActivity" />
+        <activity android:name=".Activites.ContactDeveloperActivity" />
+        <activity android:name=".Activites.AbtUsActivity" />
+        <activity android:name=".Activites.CreateGroupActivity" />
+        <activity
+            android:name=".Activites.GroupChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.ViewProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.PrivacyAbtContActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.ProfileChangeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.UserUpdationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.SetUpProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.OTPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.PhoneAuthActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.SignInActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activites.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activites.MainActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

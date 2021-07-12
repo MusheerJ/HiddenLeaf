@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HiddenLeadApp" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#3AA17E</item>
+        <item name="colorPrimaryVariant">@color/DarkSlateGray</item>
+        <item name="colorOnPrimary">@color/DarkSlateGray</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#2B785E</item>
+        <item name="colorSecondaryVariant">@color/DarkSlateGray</item>
+        <item name="colorOnSecondary">@color/DarkSlateGray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <!-- Customize your theme here. -->
+
+
+
+<!--        <item name="android:itemBackground">@color/black</item>-->
+
+<!--        <item name="android:actionMenuTextColor">@color/black</item>-->
+
+
+
+    </style>
+
+
+</resources>

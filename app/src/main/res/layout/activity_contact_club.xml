@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/contact_designer_bg"
+    tools:context=".Activites.ContactClubActivity">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="360dp"
+        android:layout_height="225dp"
+        android:layout_marginTop="100dp"
+        android:forceDarkAllowed="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/contact_us_developer_rectangle" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18">
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="326dp"
+            android:layout_height="75dp"
+            android:forceDarkAllowed="false"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@drawable/contact_us_developer_get" />
+
+        <ImageView
+            android:id="@+id/ClubEmail"
+            android:layout_width="251dp"
+            android:layout_height="52dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="40dp"
+            android:background="?selectableItemBackground"
+            android:paddingRight="10dp"
+            app:srcCompat="@drawable/contact_club_email" />
+
+        <ImageView
+            android:id="@+id/ClubInsta"
+            android:layout_width="168dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="40dp"
+            android:background="?selectableItemBackground"
+            app:srcCompat="@drawable/contact_club_instagram" />
+
+        <ImageView
+            android:id="@+id/ClubWeb"
+            android:layout_width="190dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="21dp"
+            android:layout_marginLeft="21dp"
+            android:layout_marginTop="40dp"
+            android:background="?selectableItemBackground"
+            app:srcCompat="@drawable/contact_club_website" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="35dp"
+        android:forceDarkAllowed="false"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView18"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:srcCompat="@drawable/contact_club_oysterkode" />
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/imageView24"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView18"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18"
+        app:srcCompat="@drawable/contact_club" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

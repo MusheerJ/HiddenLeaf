@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/DarkSlateGray"
+    android:foregroundGravity="center"
+    tools:context=".Activites.OTPActivity">
+
+    <ImageView
+        android:id="@+id/ProfileSetUp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="152dp"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="@+id/VerifyPhoneNumber"
+        app:layout_constraintStart_toStartOf="@+id/VerifyPhoneNumber"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_hacked"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/VerifyPhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:text="Verify +917620196445 "
+        android:textColor="@color/Azure"
+        android:textColorLink="@color/Azure"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ProfileSetUp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="252dp"
+        android:foregroundGravity="center"
+        app:cardBackgroundColor="@color/Azure"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VerifyPhoneNumber">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.mukesh.OtpView
+                android:id="@+id/OTP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="7dp"
+                android:gravity="center"
+                android:inputType="phone"
+                android:itemBackground="@color/grayBackGround"
+                android:textColor="@android:color/black"
+                app:OtpItemCount="6"
+                app:OtpLineColor="#FF1645"
+                app:OtpViewType="line" />
+
+            <Button
+                android:id="@+id/Verify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:text="Verify"
+                android:textColor="@color/Azure"
+                app:backgroundTint="#D1002A" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Please type the verification code sent on your phone number "
+        android:textColor="@color/Azure"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/VerifyPhoneNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

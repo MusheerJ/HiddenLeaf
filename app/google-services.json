@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "848203679739",
+    "project_id": "hiddenleafapp",
+    "storage_bucket": "hiddenleafapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:848203679739:android:4761262d56c7844a47ed5e",
+        "android_client_info": {
+          "package_name": "com.leaf.hiddenleadapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "848203679739-aus9rnpbfv86lc14vsmgcpn0g3q8c3p1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCraWKkPuda4T-zX3-fGvQhADtPESp3Qaw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "848203679739-aus9rnpbfv86lc14vsmgcpn0g3q8c3p1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
