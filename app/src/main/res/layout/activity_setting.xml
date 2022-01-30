@@ -388,8 +388,8 @@
 
                     <ImageView
                         android:id="@+id/imageView11"
-                        android:layout_width="wrap_content"
-                        android:layout_height="4dp"
+                        android:layout_width="33dp"
+                        android:layout_height="33dp"
                         android:layout_gravity="center|left"
                         android:layout_margin="2dp"
                         android:padding="5dp"
