@@ -13,7 +13,7 @@
 
 
 <h4 align="center">
-	🚧  Under Development 🚧
+	Complete
 </h4>
 
 <hr>
@@ -45,24 +45,29 @@ This is a Private Messaging Application developed using AndroidFire(Android+Fire
 :heavy_check_mark: Search users using username or email\
 :heavy_check_mark: And many more to come 
 
-## :checkered_flag: Screen Shots
+## :checkered_flag: Illustrations
 
-Here are some Screen Shots of Hidden Leaf App
+Here are some Illustration of App Screens
 
-| ![](screen-shots/splash-screen.png) | ![](screen-shots/sign-in.png) | ![](screen-shots/sign-up.png) |
-| :----------------------------------: | :----------------------------: | :----------------------------: |
-|        Splash Screen         |         Sign In Screen         |         Sign Up Screen         |
+| ![](screen-shots/Auth.png) |
+| :--------------------------------:| 
+|            Authentication         |
 
-| ![](screen-shots/all-chats.png) | ![](screen-shots/groups.jpg) | ![](screen-shots/chat-screen.png) |
-| :------------------------------------: | :----------------------------------------: | :-------------------------------------------: |
-|         All Chats Screen         |         Group Chat Screen        |         Private Chat Screen         |
+| ![](screen-shots/messages.png) |
+| :--------------------------------:| 
+|            Messages         |
 
-| ![](screen-shots/settings.png) | ![](screen-shots/update-profile.png) | ![](screen-shots/update-username.png) |
-| :---------------------------------: | :------------------------------------: | :---------------------------------: |
-|         Settings Screen         |         Update User Profile         |         Update User Name        |
+| ![](screen-shots/chats.png) |
+| :--------------------------------:| 
+|            Chats         |
 
-| ![](screen-shots/live-chat.png) | ![](screen-shots/delete-message.png) | ![](screen-shots/view-user-profile.png) |
-| :---------------------------------: | :------------------------------------: | :---------------------------------: |
-|         Live Chat Screen         |         Delete Message         |         View User Profile        |
+| ![](screen-shots/profile.png) |
+| :--------------------------------:| 
+|            User Profile         |
+
+| ![](screen-shots/viewprofile.png) |
+| :--------------------------------:| 
+|            View Profile        |
+
 
 
