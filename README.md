@@ -53,21 +53,21 @@ Here are some Illustration of App Screens
 | :--------------------------------:| 
 |            Authentication         |
 
-| ![](screen-shots/messages.png) |
-| :--------------------------------:| 
-|            Messages         |
-
-| ![](screen-shots/chats.png) |
+| ![](screen-shots/Chats.png) |
 | :--------------------------------:| 
 |            Chats         |
 
-| ![](screen-shots/profile.png) |
+| ![](screen-shots/PersonalChats.png) |
+| :--------------------------------:| 
+|            Personnal Chat         |
+
+| ![](screen-shots/Profile.png) |
 | :--------------------------------:| 
 |            User Profile         |
 
-| ![](screen-shots/viewprofile.png) |
+| ![](screen-shots/Contact.png) |
 | :--------------------------------:| 
-|            View Profile        |
+|            Contact       |
 
 
 
